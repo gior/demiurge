@@ -1,6 +1,6 @@
 {
-  "name": "dmrg",
-  "version": "0.1.0",
+  "name": "demiurge",
+  "version": "0.1.2",
   "description": "Dynamic components for admin pages, written in bootstap-vue",
   "keywords": [
     "bootstrap-vue vuejs admin components"

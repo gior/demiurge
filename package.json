@@ -9,25 +9,35 @@
   "author": "Giorgio Sidari",
   "main": "src/main.js",
   "scripts": {
-    "build": "webpack -p"
+    "build": "webpack -p",
+    "test": "mocha-webpack"
   },
   "dependencies": {
+    "bootstrap-vue": "^2.0.0-rc.2",
     "vue": "^2.5.13"
   },
   "devDependencies": {
+    "@vue/test-utils": "^1.0.0-beta.13",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
     "cross-env": "^5.1.4",
     "css-loader": "^0.28.11",
+    "expect": "^22.4.3",
     "file-loader": "^1.1.11",
+    "jsdom": "^11.6.2",
+    "jsdom-global": "^3.0.2",
+    "mocha": "^5.0.5",
+    "mocha-webpack": "2.0.0-beta.0",
     "node-sass": "^4.8.3",
     "sass-loader": "^6.0.7",
     "vue-loader": "^14.2.2",
     "vue-template-compiler": "^2.5.16",
     "webpack": "^4.3.0",
     "webpack-cli": "^2.0.13",
-    "webpack-dev-server": "^3.1.1"
+    "webpack-dev-server": "^3.1.1",
+    "webpack-node-externals": "^1.6.0"
   },
   "browserslist": [
     "> 1%",

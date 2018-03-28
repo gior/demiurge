@@ -2,8 +2,8 @@ var path = require('path')
 var webpack = require('webpack')
 
 module.exports = {
+  mode: "development",
   entry: './src/main.js',
-
   module: {
     rules: [
       // use babel-loader for js files
